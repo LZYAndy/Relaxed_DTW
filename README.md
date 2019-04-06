@@ -41,6 +41,8 @@ x = np.array([1, 1, 2, 3, 2, 0])
 y = np.array([2, 3, 3, 4, 5, 4])
 distance,DTW_matrix=relaxed_dtw.relaxed_dtw(x,y,r =3)
 
+```
+
 ### Note :
 
 * Default distance metric: (x-y)<sup>2</sup>
