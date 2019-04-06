@@ -27,13 +27,13 @@ distance,DTW_matrix=relaxed_dtw(x, y, distance=dist, r=3)
 
 ``` 
 ## Cython - Fast
-#####Install 
+##### Install 
 
 ```
 pip install cython
 
 ```
-#####Setup
+##### Setup
 In the files, relaxed_dtw.pyx is the python code. In order to create the c extension (relaxed_dtw.c), do the following:
 
 ```
@@ -42,7 +42,7 @@ python setup.py build_ext --inplace
 ```
 This will create the .c file and this needs to be executed everytime any change is made to the python code.
 
-#####Usage
+##### Usage
 
  ```
 import numpy as np
